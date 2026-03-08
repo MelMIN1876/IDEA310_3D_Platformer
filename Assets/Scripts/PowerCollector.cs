@@ -21,5 +21,9 @@ public class PowerCollector : MonoBehaviour
                 SceneManager.LoadScene(LvlToLoad);
             }
         }
+        if(other.tag == "DeadZone")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
     }
 }

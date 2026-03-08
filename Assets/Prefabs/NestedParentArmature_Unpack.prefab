@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 12481341642483761}
+  - component: {fileID: 2637907468429653088}
   m_Layer: 0
   m_Name: NestedParentArmature_Unpack
   m_TagString: Untagged
@@ -35,6 +36,18 @@ Transform:
   - {fileID: 6919809752970150913}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2637907468429653088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174324590302203533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f00b514997574724bbf569d1e5a0f934, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OpenMenu
 --- !u!1001 &1147803030315491124
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -340,8 +353,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3b6c691193924c44bbb1af71a336460, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BoostCollector
-  BoostText: {fileID: 0}
-  NumBoostsInLvl: 4
+  PowerText: {fileID: 0}
+  NumPowersInLvl: 4
   LvlToLoad: Menu
 --- !u!4 &1037755588613030725 stripped
 Transform:
